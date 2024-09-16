@@ -6,7 +6,7 @@ import FeaturedProprietes from "@/components/featured-proprietes";
 export default function Home() {
 	return (
 		<>
-			<Hero />
+			<Hero size="large" />
 			<InfoBoxes />
 			<FeaturedProprietes />
 		</>
