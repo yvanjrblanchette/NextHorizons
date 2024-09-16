@@ -47,7 +47,7 @@ const ProprietesCard = ({ _id, images, type, name, location, beds, baths, square
 						<div className="text-gray-600">{type}</div>
 						<h3 className="md:text-xl text-2xl font-bold text-limegreen-600">{name}</h3>
 					</div>
-					<h3 className="absolute top-[10px] right-[10px] bg-limegreen-500 px-4 py-2 rounded-none text-marine-700 font-bold text-right md:text-center lg:text-right">
+					<h3 className="absolute top-[10px] right-[10px] bg-limegreen-500 px-4 py-2 rounded-none text-marine-600 font-bold text-right md:text-center lg:text-right">
 						${getRateDisplay()}
 					</h3>
 

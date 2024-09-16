@@ -48,8 +48,8 @@ const Header = () => {
 										<Link
 											href={link.href}
 											className={cn(
-												"flex items-center gap-2 text-white hover:bg-limegreen-600 rounded-sm px-3 py-2 transition duration-300",
-												isActive ? "bg-limegreen-600 pointer-events-none" : "hover:bg-limegreen-600"
+												"flex items-center gap-2 text-white hover:bg-limegreen-600 hover:text-marine-700 font-semibold tracking-wide roundednone px-3 py-2 transition duration-300",
+												isActive ? "bg-limegreen-600 text-marine-700 pointer-events-none" : "hover:bg-limegreen-600"
 											)}
 										>
 											{Icon && <Icon className="w-6 h-6" />}

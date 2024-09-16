@@ -40,7 +40,7 @@ const FeaturedProprietes = () => {
 			<section className="m-auto max-w-lg my-10 px-6">
 				<Link
 					href="proprietes"
-					className="block bg-limegreen-600 text-white text-center font-semibold py-4 px-6 rounded-none hover:opacity-80 transition duration-300"
+					className="block bg-limegreen-500 text-marine-600 text-center font-bold tracking-wide py-4 px-6 rounded-none hover:opacity-80 transition duration-300"
 				>
 					Voir toutes les Propriétés
 				</Link>

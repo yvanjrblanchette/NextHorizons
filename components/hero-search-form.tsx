@@ -35,7 +35,7 @@ const HeroSearchForm = () => {
 				</Select>
 			</div>
 
-			<Button size="lg" type="submit" className="lg:me-1">
+			<Button size="lg" type="submit" className="lg:me-1 text-marine-700 font-bold tracking-wide">
 				Recherche
 			</Button>
 		</form>
