@@ -1,0 +1,471 @@
+[
+	{
+		"owner": "1",
+		"name": "Retraite Boston Commons",
+		"type": "Appartement",
+		"description": "Il s'agit d'un bel appartement situé près des espaces communs. C'est un appartement de 2 chambres avec une cuisine et une salle de bain complètes. Il est disponible pour des locations hebdomadaires ou mensuelles.",
+		"location": {
+			"street": "120 Rue Tremont",
+			"city": "Montréal",
+			"state": "QC",
+			"zipcode": "H2Y 1A1"
+		},
+		"beds": 2,
+		"baths": 1,
+		"square_feet": 1500,
+		"amenities": [
+			"Wifi",
+			"Cuisine complète",
+			"Laveuse & Sécheuse",
+			"Stationnement gratuit",
+			"Bain à remous",
+			"Sécurité 24/7",
+			"Accessible aux fauteuils roulants",
+			"Accès avec ascenseur",
+			"Lave-vaisselle",
+			"Salle de sport",
+			"Climatisation",
+			"Balcon/Patio",
+			"Télévision intelligente",
+			"Machine à café"
+		],
+		"rates": {
+			"weekly": 1100,
+			"monthly": 4200
+		},
+		"seller_info": {
+			"name": "John Doe",
+			"email": "john@gmail.com",
+			"phone": "514-555-5555"
+		},
+		"images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-01T00:00:00.000Z",
+		"updatedAt": "2024-01-01T00:00:00.000Z"
+	},
+	{
+		"owner": "1",
+		"name": "Loft Cosy au Centre-Ville",
+		"type": "Appartement",
+		"description": "Un loft cosy au centre-ville avec de superbes vues sur la ville.",
+		"location": {
+			"street": "45 Rue Principale",
+			"city": "Québec",
+			"state": "QC",
+			"zipcode": "G1R 1A1"
+		},
+		"beds": 1,
+		"baths": 1,
+		"square_feet": 1800,
+		"amenities": [
+			"Wifi",
+			"Cuisine complète",
+			"Laveuse & Sécheuse",
+			"Stationnement gratuit",
+			"Bain à remous",
+			"Sécurité 24/7",
+			"Accessible aux fauteuils roulants",
+			"Accès avec ascenseur",
+			"Lave-vaisselle",
+			"Internet haute vitesse",
+			"Climatisation",
+			"Télévision intelligente",
+			"Gril/BBQ extérieur"
+		],
+		"rates": {
+			"weekly": 1000,
+			"monthly": 4000
+		},
+		"seller_info": {
+			"name": "Jane Smith",
+			"email": "jane@gmail.com",
+			"phone": "418-555-5555"
+		},
+		"images": ["b1.jpg", "b2.jpg", "b3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-02T00:00:00.000Z",
+		"updatedAt": "2024-01-02T00:00:00.000Z"
+	},
+	{
+		"owner": "2",
+		"name": "Condo Luxe avec Vue",
+		"type": "Condo",
+		"description": "Découvrez le luxe dans ce condo époustouflant avec des vues à couper le souffle.",
+		"location": {
+			"street": "500 Rue Luxe",
+			"city": "Montréal",
+			"state": "QC",
+			"zipcode": "H3A 1A1"
+		},
+		"beds": 3,
+		"baths": 2,
+		"square_feet": 2200,
+		"amenities": [
+			"Wifi",
+			"Cuisine complète",
+			"Laveuse & Sécheuse",
+			"Stationnement gratuit",
+			"Bain à remous",
+			"Sécurité 24/7",
+			"Accessible aux fauteuils roulants",
+			"Accès avec ascenseur",
+			"Lave-vaisselle",
+			"Piscine",
+			"Salle de sport",
+			"Climatisation",
+			"Télévision intelligente",
+			"Machine à café"
+		],
+		"rates": {
+			"nightly": 200,
+			"weekly": 750,
+			"monthly": 3300
+		},
+		"seller_info": {
+			"name": "David Johnson",
+			"email": "david@gmail.com",
+			"phone": "514-555-5556"
+		},
+		"images": ["c1.jpg", "c2.jpg", "c3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-03T00:00:00.000Z",
+		"updatedAt": "2024-01-03T00:00:00.000Z"
+	},
+	{
+		"owner": "2",
+		"name": "Cottage Charmant pour Évasion",
+		"type": "Chalet",
+		"description": "Évadez-vous dans ce cottage charmant pour une retraite paisible.",
+		"location": {
+			"street": "123 Chemin Champêtre",
+			"city": "Ottawa",
+			"state": "QC",
+			"zipcode": "K1A 0A1"
+		},
+		"beds": 1,
+		"baths": 1,
+		"square_feet": 900,
+		"amenities": ["Cheminée", "Gril/BBQ extérieur", "Balcon/Patio", "Machine à café"],
+		"rates": {
+			"weekly": 2000
+		},
+		"seller_info": {
+			"name": "Emily Davis",
+			"email": "emily@gmail.com",
+			"phone": "613-555-5555"
+		},
+		"images": ["d1.jpg", "d2.jpg", "d3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-04T00:00:00.000Z",
+		"updatedAt": "2024-01-04T00:00:00.000Z"
+	},
+	{
+		"owner": "3",
+		"name": "Studio Moderne au Centre-Ville",
+		"type": "Studio",
+		"description": "Séjournez avec style dans ce studio moderne au centre-ville.",
+		"location": {
+			"street": "75 Avenue Urbaine",
+			"city": "Toronto",
+			"state": "ON",
+			"zipcode": "M5A 1A1"
+		},
+		"beds": 1,
+		"baths": 1,
+		"square_feet": 900,
+		"amenities": ["Internet haute vitesse", "Télévision intelligente", "Climatisation", "Salle de sport", "Gril/BBQ extérieur"],
+		"rates": {
+			"weekly": 1100,
+			"monthly": 4200
+		},
+		"seller_info": {
+			"name": "Michael Brown",
+			"email": "michael@gmail.com",
+			"phone": "416-555-5555"
+		},
+		"images": ["e1.jpg", "e2.jpg", "e3.jpg"],
+		"is_featured": true,
+		"createdAt": "2024-01-05T00:00:00.000Z",
+		"updatedAt": "2024-01-05T00:00:00.000Z"
+	},
+	{
+		"owner": "3",
+		"name": "Retraite au Bord de la Mer",
+		"type": "Maison",
+		"description": "Évadez-vous dans cette maison au bord de la mer pour une escapade relaxante.",
+		"location": {
+			"street": "456 Avenue Front de Mer",
+			"city": "Montréal",
+			"state": "QC",
+			"zipcode": "H3C 1A1"
+		},
+		"beds": 4,
+		"baths": 3,
+		"square_feet": 2800,
+		"amenities": ["Accès à la plage", "Piscine", "Balcon/Patio", "Télévision intelligente", "Gril/BBQ extérieur"],
+		"rates": {
+			"nightly": 500,
+			"weekly": 2500
+		},
+		"seller_info": {
+			"name": "Sarah Wilson",
+			"email": "sarah@gmail.com",
+			"phone": "514-555-5557"
+		},
+		"images": ["f1.jpg", "f2.jpg", "f3.jpg"],
+		"is_featured": true,
+		"createdAt": "2024-01-06T00:00:00.000Z",
+		"updatedAt": "2024-01-06T00:00:00.000Z"
+	},
+	{
+		"owner": "4",
+		"name": "Chalet Rustique dans les Bois",
+		"type": "Chalet",
+		"description": "Séjournez dans cette chalet rustique nichée dans les bois pour une expérience immersive en nature.",
+		"location": {
+			"street": "789 Chemin des Bois",
+			"city": "Sherbrooke",
+			"state": "QC",
+			"zipcode": "J1G 1A1"
+		},
+		"beds": 2,
+		"baths": 1,
+		"square_feet": 1000,
+		"amenities": ["Cheminée", "Gril/BBQ extérieur", "Balcon/Patio", "Machine à café", "Laveuse & Sécheuse"],
+		"rates": {
+			"weekly": 1500,
+			"monthly": 6000
+		},
+		"seller_info": {
+			"name": "Laura Green",
+			"email": "laura@gmail.com",
+			"phone": "819-555-5555"
+		},
+		"images": ["g1.jpg", "g2.jpg", "g3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-07T00:00:00.000Z",
+		"updatedAt": "2024-01-07T00:00:00.000Z"
+	},
+	{
+		"owner": "1",
+		"name": "Appartement Éclairé au Coeur de la Ville",
+		"type": "Appartement",
+		"description": "Un appartement lumineux avec des fenêtres panoramiques offrant une vue imprenable sur la ville. Idéal pour des séjours courts ou longs.",
+		"location": {
+			"street": "89 Avenue Lumière",
+			"city": "Montreal",
+			"state": "QC",
+			"zipcode": "H2W 1A2"
+		},
+		"beds": 2,
+		"baths": 1,
+		"square_feet": 1600,
+		"amenities": [
+			"Wifi",
+			"Cuisine complète",
+			"Laveuse & Sécheuse",
+			"Stationnement gratuit",
+			"Bain à remous",
+			"Sécurité 24/7",
+			"Accessible aux fauteuils roulants",
+			"Accès avec ascenseur",
+			"Lave-vaisselle",
+			"Balcon",
+			"Climatisation",
+			"Télévision intelligente",
+			"Machine à café"
+		],
+		"rates": {
+			"weekly": 1300,
+			"monthly": 5000
+		},
+		"seller_info": {
+			"name": "Alice Brown",
+			"email": "alice.brown@gmail.com",
+			"phone": "514-555-1234"
+		},
+		"images": ["h1.jpg", "h2.jpg", "h3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-08T00:00:00.000Z",
+		"updatedAt": "2024-01-08T00:00:00.000Z"
+	},
+	{
+		"owner": "1",
+		"name": "Loft Chic et Moderne",
+		"type": "Loft",
+		"description": "Loft moderne avec un design épuré et des équipements haut de gamme. Idéal pour les voyageurs d'affaires ou les couples.",
+		"location": {
+			"street": "123 Boulevard Moderne",
+			"city": "Gatineau",
+			"state": "QC",
+			"zipcode": "J8X 1A1"
+		},
+		"beds": 1,
+		"baths": 1,
+		"square_feet": 1400,
+		"amenities": [
+			"Wifi",
+			"Cuisine complète",
+			"Laveuse & Sécheuse",
+			"Stationnement gratuit",
+			"Sécurité 24/7",
+			"Lave-vaisselle",
+			"Télévision intelligente",
+			"Climatisation",
+			"Machine à café",
+			"Gril/BBQ extérieur"
+		],
+		"rates": {
+			"weekly": 1200,
+			"monthly": 4700
+		},
+		"seller_info": {
+			"name": "Bob White",
+			"email": "bob.white@gmail.com",
+			"phone": "819-555-6789"
+		},
+		"images": ["i1.jpg", "i2.jpg", "i3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-09T00:00:00.000Z",
+		"updatedAt": "2024-01-09T00:00:00.000Z"
+	},
+	{
+		"owner": "2",
+		"name": "Condo Élégant avec Terrasse",
+		"type": "Condo",
+		"description": "Condo spacieux avec une terrasse privée offrant une vue magnifique sur la ville. Parfait pour les familles et les groupes.",
+		"location": {
+			"street": "654 Rue Élégante",
+			"city": "Montreal",
+			"state": "QC",
+			"zipcode": "H3B 2A1"
+		},
+		"beds": 3,
+		"baths": 2,
+		"square_feet": 2500,
+		"amenities": [
+			"Wifi",
+			"Cuisine complète",
+			"Laveuse & Sécheuse",
+			"Stationnement gratuit",
+			"Bain à remous",
+			"Sécurité 24/7",
+			"Lave-vaisselle",
+			"Piscine",
+			"Salle de sport",
+			"Climatisation",
+			"Télévision intelligente",
+			"Gril/BBQ extérieur"
+		],
+		"rates": {
+			"nightly": 300,
+			"weekly": 1500,
+			"monthly": 6000
+		},
+		"seller_info": {
+			"name": "Emma Johnson",
+			"email": "emma.johnson@gmail.com",
+			"phone": "514-555-9876"
+		},
+		"images": ["j1.jpg", "j2.jpg", "j3.jpg"],
+		"is_featured": true,
+		"createdAt": "2024-01-10T00:00:00.000Z",
+		"updatedAt": "2024-01-10T00:00:00.000Z"
+	},
+	{
+		"owner": "2",
+		"name": "Maison de Charme à la Campagne",
+		"type": "Maison",
+		"description": "Maison charmante avec grand jardin et espaces extérieurs parfaits pour les familles ou les groupes d'amis.",
+		"location": {
+			"street": "987 Chemin Campagne",
+			"city": "Laval",
+			"state": "QC",
+			"zipcode": "H7N 1A1"
+		},
+		"beds": 4,
+		"baths": 3,
+		"square_feet": 3000,
+		"amenities": [
+			"Wifi",
+			"Cuisine complète",
+			"Laveuse & Sécheuse",
+			"Stationnement gratuit",
+			"Gril/BBQ extérieur",
+			"Balcon",
+			"Climatisation",
+			"Télévision intelligente"
+		],
+		"rates": {
+			"nightly": 400,
+			"weekly": 2500
+		},
+		"seller_info": {
+			"name": "Olivia Williams",
+			"email": "olivia.williams@gmail.com",
+			"phone": "450-555-1234"
+		},
+		"images": ["k1.jpg", "k2.jpg", "k3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-11T00:00:00.000Z",
+		"updatedAt": "2024-01-11T00:00:00.000Z"
+	},
+	{
+		"owner": "3",
+		"name": "Cabine sur le Lac",
+		"type": "Cottage ou Cabine",
+		"description": "Cabine confortable au bord du lac avec accès direct à la plage et activités nautiques.",
+		"location": {
+			"street": "321 Chemin du Lac",
+			"city": "Saint-Agathe-des-Monts",
+			"state": "QC",
+			"zipcode": "J8E 2A1"
+		},
+		"beds": 2,
+		"baths": 1,
+		"square_feet": 1000,
+		"amenities": ["Accès à la plage", "Gril/BBQ extérieur", "Balcon", "Machine à café", "Laveuse & Sécheuse"],
+		"rates": {
+			"weekly": 1800,
+			"monthly": 7000
+		},
+		"seller_info": {
+			"name": "James Miller",
+			"email": "james.miller@gmail.com",
+			"phone": "819-555-4321"
+		},
+		"images": ["l1.jpg", "l2.jpg", "l3.jpg"],
+		"is_featured": true,
+		"createdAt": "2024-01-12T00:00:00.000Z",
+		"updatedAt": "2024-01-12T00:00:00.000Z"
+	},
+	{
+		"owner": "4",
+		"name": "Studio Pratique au Bord de la Rivière",
+		"type": "Studio",
+		"description": "Studio moderne avec vue sur la rivière, idéal pour les voyageurs en solo ou les couples.",
+		"location": {
+			"street": "567 Avenue Rivière",
+			"city": "Trois-Rivières",
+			"state": "QC",
+			"zipcode": "G9A 1A1"
+		},
+		"beds": 1,
+		"baths": 1,
+		"square_feet": 800,
+		"amenities": ["Wifi", "Cuisine complète", "Climatisation", "Télévision intelligente", "Machine à café"],
+		"rates": {
+			"weekly": 900,
+			"monthly": 3500
+		},
+		"seller_info": {
+			"name": "Sophia Davis",
+			"email": "sophia.davis@gmail.com",
+			"phone": "819-555-6780"
+		},
+		"images": ["m1.jpg", "m2.jpg", "m3.jpg"],
+		"is_featured": false,
+		"createdAt": "2024-01-13T00:00:00.000Z",
+		"updatedAt": "2024-01-13T00:00:00.000Z"
+	}
+]

@@ -1,0 +1,301 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+  /* COLORS */
+  --clr-marine-90: hsl(219, 62%, 95%);
+  --clr-marine-85: hsl(219, 62%, 94%);
+  --clr-marine-80: hsl(219, 62%, 90%);
+  --clr-marine-70: hsl(219, 62%, 70%);
+  --clr-marine-60: hsl(219, 62%, 60%);
+  --clr-marine-50: hsl(219, 62%, 50%);
+  --clr-marine-40: hsl(219, 62%, 40%);
+  --clr-marine-30: hsl(219, 62%, 30%);
+  --clr-marine-20: hsl(219, 62%, 20%);
+  --clr-marine-10: hsl(219, 62%, 10%);
+
+  --clr-limegreen-90: hsl(66, 100%, 95%);
+  --clr-limegreen-80: hsl(66, 71%, 80%);
+  --clr-limegreen-70: hsl(66, 71%, 70%);
+  --clr-limegreen-60: hsl(66, 71%, 60%);
+  --clr-limegreen-50: hsl(66, 71%, 50%);
+  --clr-limegreen-40: hsl(66, 71%, 40%);
+  --clr-limegreen-30: hsl(66, 71%, 30%);
+  --clr-limegreen-20: hsl(66, 71%, 50%);
+  --clr-limegreen-10: hsl(66, 71%, 10%);
+}
+
+/* ------------------- */
+/* !---> RESET <---! */
+/* ------------------- */
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+/* ------------------- */
+/* !---> UTILITY <---! */
+/* ------------------- */
+
+/* TYPOGRAPHY */
+.bg-marine-100 {
+  background-color: var(--clr-marine-85);
+}
+
+.bg-marine-200 {
+  background-color: var(--clr-marine-80);
+}
+
+.bg-marine-300 {
+  background-color: var(--clr-marine-70);
+}
+
+.bg-marine-400 {
+  background-color: var(--clr-marine-60);
+}
+
+.bg-marine-500 {
+  background-color: var(--clr-marine-50);
+}
+
+.bg-marine-600 {
+  background-color: var(--clr-marine-40);
+}
+
+.bg-marine-700 {
+  background-color: var(--clr-marine-30);
+}
+
+.bg-marine-800 {
+  background-color: var(--clr-marine-20);
+}
+
+.bg-marine-900 {
+  background-color: var(--clr-marine-10);
+}
+
+.hover-bg-marine-100:hover {
+  background-color: var(--clr-marine-90);
+}
+
+.hover-bg-marine-200:hover {
+  background-color: var(--clr-marine-80);
+}
+
+.hover-bg-marine-300:hover {
+  background-color: var(--clr-marine-70);
+}
+
+.hover-bg-marine-400:hover {
+  background-color: var(--clr-marine-60);
+}
+
+.hover-bg-marine-500:hover {
+  background-color: var(--clr-marine-50);
+}
+
+.hover-bg-marine-600:hover {
+  background-color: var(--clr-marine-40);
+}
+
+.hover-bg-marine-700:hover {
+  background-color: var(--clr-marine-30);
+}
+
+.hover-bg-marine-800:hover {
+  background-color: var(--clr-marine-20);
+}
+
+.hover-bg-marine-900:hover {
+  background-color: var(--clr-marine-10);
+}
+
+.border-marine-100 {
+  border-color: var(--clr-marine-90);
+}
+
+.border-marine-200 {
+  border-color: var(--clr-marine-80);
+}
+
+.border-marine-300 {
+  border-color: var(--clr-marine-70);
+}
+
+.border-marine-400 {
+  border-color: var(--clr-marine-60);
+}
+
+.border-marine-500 {
+  border-color: var(--clr-marine-50);
+}
+
+.border-marine-600 {
+  border-color: var(--clr-marine-40);
+}
+
+.border-marine-700 {
+  border-color: var(--clr-marine-30);
+}
+
+.border-marine-800 {
+  border-color: var(--clr-marine-20);
+}
+
+.border-marine-900 {
+  border-color: var(--clr-marine-10);
+}
+
+.hover-bg-marine-900:hover {
+  background-color: var(--clr-marine-10);
+}
+
+.text-marine-100 {
+  color: var(--clr-marine-90);
+}
+
+.text-marine-200 {
+  color: var(--clr-marine-80);
+}
+
+.text-marine-300 {
+  color: var(--clr-marine-70);
+}
+
+.text-marine-400 {
+  color: var(--clr-marine-60);
+}
+
+.text-marine-500 {
+  color: var(--clr-marine-50);
+}
+
+.hover-text-marine-500:hover {
+  color: var(--clr-marine-50);
+}
+
+.text-marine-600 {
+  color: var(--clr-marine-40);
+}
+
+.text-marine-700 {
+  color: var(--clr-marine-30);
+}
+
+.text-marine-800 {
+  color: var(--clr-marine-20);
+}
+
+.text-marine-900 {
+  color: var(--clr-marine-10);
+}
+
+.bg-limegreen-100 {
+  background-color: var(--clr-limegreen-90);
+}
+
+.bg-limegreen-200 {
+  background-color: var(--clr-limegreen-80);
+}
+
+.bg-limegreen-300 {
+  background-color: var(--clr-limegreen-70);
+}
+
+.bg-limegreen-400 {
+  background-color: var(--clr-limegreen-60);
+}
+
+.bg-limegreen-500 {
+  background-color: var(--clr-limegreen-50);
+
+}
+
+.border-limegreen-500 {
+  border-bottom: 1px solid var(--clr-limegreen-50);
+}
+
+.bg-limegreen-600 {
+  background-color: var(--clr-limegreen-40);
+}
+
+.hover-bg-limegreen-600:hover {
+  background-color: var(--clr-limegreen-40);
+}
+
+.bg-limegreen-700 {
+  background-color: var(--clr-limegreen-30);
+}
+
+.bg-limegreen-800 {
+  background-color: var(--clr-limegreen-20);
+}
+
+.bg-limegreen-900 {
+  background-color: var(--clr-limegreen-10);
+}
+
+.text-limegreen-100 {
+  color: var(--clr-limegreen-90);
+}
+
+.text-limegreen-200 {
+  color: var(--clr-limegreen-80);
+}
+
+.text-limegreen-300 {
+  color: var(--clr-limegreen-70);
+}
+
+.text-limegreen-400 {
+  color: var(--clr-limegreen-60);
+}
+
+.text-limegreen-500 {
+  color: var(--clr-limegreen-50);
+}
+
+.hover-text-limegreen-600:hover {
+  color: var(--clr-limegreen-40);
+}
+
+.text-limegreen-600 {
+  color: var(--clr-limegreen-40);
+}
+
+.text-limegreen-700 {
+  color: var(--clr-limegreen-30);
+}
+
+.text-limegreen-800 {
+  color: var(--clr-limegreen-20);
+}
+
+.text-limegreen-900 {
+  color: var(--clr-limegreen-10);
+}
+
+.ff-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* ---------------------- */
+/* !---> COMPONENTS <---! */
+/* ---------------------- */
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}

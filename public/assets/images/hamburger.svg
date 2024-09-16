@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.5 11.5">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #cadb2a;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" y1=".5" x2="16.5" y2=".5"/>
+  <line class="cls-1" y1="5.75" x2="16.5" y2="5.75"/>
+  <line class="cls-2" y1="11" x2="16.5" y2="11"/>
+</svg>
